@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Quoll905.github.io/liveCovid",
+  "homepage": "liveCovid.it",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
@@ -21,6 +21,8 @@
     "react-transition-group": "^4.4.1"
   },
   "scripts": {
+    "predeploy":"npm run build" ,
+    "deploy":"gh-pages -d build" ,
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
