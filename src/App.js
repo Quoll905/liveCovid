@@ -1,25 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
+
+import {BrowserRouter as Router, Route, Redirect, Switch} from 'react-router-dom';
+
+import Home from './Pages/Home'
+import Fonti from './Pages/Fonti'
+import FalsiMiti from './Pages/FalsiMiti'
+import Navbar from './Componenti/NavMenu/Navbar'
+import Donazioni from './Pages/Donazioni';
+import Footer from './Componenti/Footer/Footer';
+import SituazioneGenerale from './Pages/SituazioneGenerale';
+
 import './App.css';
 
-function App() {
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <main>
+        <Switch>
+          <Route path="/" component={Home} exact />
+          <Route path='/situazioneGenerale' component={SituazioneGenerale} exact />
+          <Route path="/fonti" component={Fonti} exact />
+          <Route path='/miti' component={FalsiMiti} exact />
+          <Route path='/donate' component={Donazioni} exact />
+          <Redirect to="/" />
+        </Switch>
+      </main>
+      <Footer />
+    </Router>
   );
 }
 

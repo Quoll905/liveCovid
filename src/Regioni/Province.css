@@ -1,0 +1,35 @@
+/* g#comuni, g#province, g#regioni, g#segni {
+    fill:none;
+    stroke-width:1;
+    stroke-linecap:square;
+    stroke-linejoin:bevel;
+    stroke-miterlimit:3;
+    stroke-opacity:1;
+}
+
+g#comuni {
+    stroke:transparent;
+    fill-opacity:1;
+}
+
+g#province {
+    stroke:transparent;
+    fill-opacity:1;
+}
+
+g#regioni {
+    stroke-width:2;
+    stroke:transparent;
+    fill-opacity:1;
+}
+
+g#segni {
+    stroke:transparent;
+    fill-opacity:0;
+}
+
+#g_reg12{
+    fill:black;
+    stroke: white;
+} */
+

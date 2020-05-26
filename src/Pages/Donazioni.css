@@ -1,0 +1,100 @@
+.contenitore_totale {
+    height: auto;
+    width: 98vw;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.contenitore_donazioni{
+    background-color: white;
+    height: 70vh;
+    width: 70%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 50px;
+    overflow: hidden;
+}
+
+
+
+.form-donazioni{
+    transform: scale(1.4);
+}
+
+.contatti {
+    padding-top: 60px;
+    height: 55%;
+    width: 120%;
+    text-align: center;
+    margin-top: -60px;
+}
+
+.donazioni {
+    height: 100%;
+    width: 120%;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+
+.contenitore_donazioni h1{
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: #248232;
+    border: 1px solid black;
+}
+
+.contenitore_donazioni P{
+    font-size: 1.1rem;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    padding: 10px;
+    color: #248232;
+}
+
+.donazioni form{
+    margin-top: 50px;
+}
+
+.contatti h1{
+    margin-top: -20px;
+    color: #255C99;
+}
+
+.contatti p,
+.contatti h2{
+    color: #255C99;
+}
+
+
+
+
+
+
+@media (max-width: 997px){
+
+    .contenitore_totale{
+        flex-direction: column-reverse;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .contenitore_contatti{
+        width: 90vw;
+        margin: 10px;
+    }
+    .contenitore_donazioni{
+        width: 90vw;
+        margin: 10px
+    }
+
+}

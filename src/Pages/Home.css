@@ -1,0 +1,201 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #262626;
+    font-weight: 900;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contenitore_uno{
+    width: 98vw;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contenitore_due{
+    width: 98vw;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.contenitore-mappa{
+    height: 95%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 15px;
+    z-index: 2;
+}
+
+.carta_nomi_paesi{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-left: 30px;
+    height: 86%;
+    width: 50%;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 20px;
+}
+
+.carta_nomi_paesi h2 {
+    text-transform: uppercase;
+    color: #262626;
+    text-align: center;
+}
+
+.carta_nomi_paesi h1{
+    text-transform: uppercase;
+    color: #B3001B;
+    text-align: center;
+}
+
+.carta_loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    height: 46vh;
+    width: 40vw;
+    border-radius: 20px;
+    margin: 15px;
+    background-image: url('plane-loader.gif');
+    background-size: cover;
+    background-repeat: none;
+    background-position: center center;
+}
+
+.piu_info{
+    height: auto;
+    width: 350px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.piu_info h3{
+    color: #262626;
+}
+.piu_info h1{
+    color: #255C99;
+    text-transform: uppercase;
+}
+
+
+.cerca_google a{
+    border: 2px solid #5CC8FF;
+    border-radius: 20px;
+    height: auto;
+    width: 200px;
+    text-emphasis: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.cerca_google a:hover{
+    background-color: #5CC8FF;
+    color: #B3001B;
+}
+
+.cerca_google {
+    width: 98vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+
+.contenitore_chat{
+    width: 80vw;
+    height: 100vh;
+    margin-left: 10vw;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 767px){
+
+    .contenitore_uno{
+        width: 98vw;
+        height: auto;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contenitore-mappa{
+        height: 30vh;
+        width: 90vw;
+    }
+    
+
+    .carta_nomi_paesi{
+        margin-top: 30px;
+        height: auto;
+        width: 85vw;
+    }
+
+    .carta_loading{
+        margin-top: 30px;
+        height: 40vh;
+        width: 85vw;
+    }
+
+    .contenitore_due {
+        margin:0px
+    }
+
+    .piu_info{
+        width: 80vw;
+    }
+
+    .carta_nomi_paesi{
+        margin-bottom: 40px;
+    }
+
+    .cerca_google{
+        margin: 65px 0 65px 0;
+    }
+
+    
+
+}

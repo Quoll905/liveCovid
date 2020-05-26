@@ -1,0 +1,87 @@
+
+.titolo_falsi_miti{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px;
+}
+
+.fonte_falsi_miti{
+    text-align: center;
+    color: white;
+}
+.fonte_falsi_miti a{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+.contenitore_falsi-miti{
+    border: 0px solid white;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow-x: hidden;
+}
+
+.mito{
+    width: 40%;
+    height: 430px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px 0 30px 0;
+    border-radius: 20px;
+    padding: 20px;
+    align-self: center;
+}
+
+.mito h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #262626;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.mito p{
+    text-align: center;
+    font-size: 1.15rem;
+}
+
+@media (max-width: 767px){
+
+    .contenitore{
+        width: 98vw;
+        margin: 1vw;
+    }
+
+    .contenitore_falsi-miti{
+        flex-direction: column;
+    }
+
+    .mito{
+        width: 90%;
+    }
+
+    .mito h1{
+        font-size: 1.7rem;
+    }
+
+    .mito p{
+        font-size: 1.1rem;
+    }
+
+    .titolo_falsi_miti{
+        font-size: 2rem;
+    }
+
+}

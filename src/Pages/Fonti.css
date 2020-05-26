@@ -1,0 +1,22 @@
+.fonti {
+    text-align: center;
+    background-color: white;
+    height: auto;
+    width: 60vw;
+    margin: 120px 20vw auto;
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 24px;
+}
+
+.fonti ul li{
+    margin: 10px;
+}
+
+@media (max-width: 767px){
+    .fonti{
+        width: 80vw;
+        margin: 1vw;
+        overflow-x: hidden;
+    }
+}
