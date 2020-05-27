@@ -251,16 +251,22 @@
         margin:2px;
     }
 
-    .contenitore_tabella_regioni table{
-        overflow-x: hidden;
+    .situazione_regioni{
         width: 95vw;
     }
 
     .contenitore_tabella_regioni{
-        width: 95vw;
-        padding: 0%;
-        margin: 0%;
+        width: 100%;
+        overflow-x: auto;
+        justify-content: stretch;
     }
+
+    .contenitore_tabella_regioni table{
+        overflow-x: auto;
+        width: 95vw;
+        max-width: 95vw;
+    }
+
 
 
     .contenitore_italia_svg{
@@ -293,6 +299,16 @@
     
     .contenitore_situazione-generale h2{
         text-align: center;
+    }
+
+    .situazione_italia_dati{
+        width: 95%;
+        margin:2.5%;
+    }
+
+    .italia_info{     
+        width: 110px;
+        height: 60px;
     }
 
 }
