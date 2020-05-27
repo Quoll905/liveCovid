@@ -21,7 +21,7 @@ const arrayMiti = [
     },
     {
         titolo: 'Il 5G non influisce sul coronavirus',
-        breveDescrizione: 'I virus non possono viaggare attraverso le onde radio o le reti mobili. Il coronavirus infatti si è espanso molto anche in paesi che non hanno una connessione 5G.'
+        breveDescrizione: 'I virus non possono viaggiare attraverso le onde radio o le reti mobili. Il coronavirus infatti si è espanso molto anche in paesi che non hanno una connessione 5G.'
     },
     {
         titolo: 'Esporre il proprio corpo a temperature superiori ai 25 gradi C NON previene il coronavirus',

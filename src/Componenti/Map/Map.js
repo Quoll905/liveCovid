@@ -54,7 +54,7 @@ class Mappa extends Component {
                     continente = location.continent;
                     stato = location.countryName;
                     regione = location.principalSubdivision;
-                    localita = location.localityInfo.administrative[3].name;
+                    localita = location.localityInfo.administrative[2].isoName;
                     console.log(continente, stato, regione, localita);
                     this.props.ottieniInfo(continente, stato, regione, localita)
                 })
