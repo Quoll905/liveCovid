@@ -253,7 +253,7 @@ class SituazioneGenerale extends React.Component {
 
                 <div className="contenitore_italia_svg">
                 {
-                this.state.regioneAttiva && <div className='informazioni_regione_cliccata'>
+                this.state.regioneAttiva ? <div className='informazioni_regione_cliccata'>
                       <h1>{this.state.regioneAttiva}</h1>
                       <div className='info_contenitore_quadrati'>
                         <div className='info_quadrato_regione'>
@@ -273,7 +273,7 @@ class SituazioneGenerale extends React.Component {
                             <h2>{this.state.datiRegioneAttiva.deceduti}</h2>
                         </div>
                       </div>
-                  </div>
+                  </div> : <h2 className='dettagli_premi_regione'>Premi su una regione per vedere i dettagli!</h2>
                   }
                   <svg
                     xmlnsmapsvg="http://mapsvg.com"
