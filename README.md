@@ -1,7 +1,7 @@
 # Live Covid Italia 
 ## A live covid-19 cases traker for Italy.
 
-### Website online at https://www.live-covid.it
+### Website online at https://www.live-covid.it o www.live-covid.it
 
 ![schermata Home](fotoMark1.png)
 
