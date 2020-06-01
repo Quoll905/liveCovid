@@ -207,14 +207,14 @@ class Home extends React.Component {
                     </Card>
                 </div>}
 
-                <div className='cerca_google' >
+                {/**<div className='cerca_google' >
                     <a target='_blank' rel="noopener noreferrer" href={`https://www.google.com/search?q=coronavirus+${this.state.localita}`}>
                         {  this.state.localita === '' ? 
                             'Cerca informazioni su google...' :
                             `Cerca informazioni su Coronavirus ${this.state.localita}`
                         }   
                     </a>
-                </div>
+                    </div>**/}
 
                 
 
