@@ -3,13 +3,13 @@
 
 ### Website online at https://www.live-covid.it
 
-![schermata Home](fotoMark1.png)
+<img width="1440" alt="Home" src="fotoMark1.png">
 
 - In the home page it takes your location and give you all the informatin about covid-19 in your region and city
 - In the 'Situazione Generale' page it gives you all the infomation about the Covd-19 in all the Italy (divided by state and region)
 - In the 'Falsi Miti' there are some mythes about the Covid19  grabbed in the page of WHO (World healt organization)
 
-![schermata Situazione Generale](fotoMark2.png)
+<img width="1440" alt="Home" src="fotoMark2.png">
 
 
 ***Today this website works only in Italy, but in the future will works in different States***
