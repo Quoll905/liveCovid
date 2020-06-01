@@ -5,8 +5,12 @@
 
 ![schermata Home](fotoMark1.png)
 
-- In the home page it takes your location and give you all the informatin about covid-19 in your region and city
-- In the 'Situazione Generale' page it gives you all the infomation about the Covd-19 in all the Italy (divided by state and region)
+## Page
+
+- The home page takes your location (it ask you if you want to share the live location) and give you all the informatin about covid-19 in your region and city:
+    - If you agree the location is exact and it gives you the info about your city
+    - If you don't agree the location is estimated with your IP address and it's not exact (Notice: google chrome block all if you don't agree!)
+- The 'Situazione Generale' page gives you all the infomation about the Covd-19 in the whole state with the possibility to tap on a region in the image of Italy and see the info about that region one.
 - In the 'Falsi Miti' there are some mythes about the Covid19  grabbed in the page of WHO (World healt organization)
 
 ![schermata Situazione Generale](fotoMark2.png)
